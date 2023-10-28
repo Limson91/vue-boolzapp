@@ -172,6 +172,29 @@ img {
     gap: 10px;
 }
 
+.main-toolbar {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 16px;
+    gap: 10px;
+    border-left: 1px solid gray;
+}
+
+.select-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.select-user-img {
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 .main-chat {
     display: flex;
     flex-direction: column;
