@@ -137,6 +137,24 @@ img {
     height: 30px;
 }
 
+/* sidebar - contacts */
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.contact-img {
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 /* main content */
 
 .main-content {
