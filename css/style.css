@@ -45,3 +45,21 @@ img {
     overflow: hidden;
     padding: 60px;
 }
+
+/* sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+/* main content */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: lightgrey;
+}
