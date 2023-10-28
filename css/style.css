@@ -178,7 +178,7 @@ img {
     background-color: lightgray;
     padding: 16px;
     gap: 10px;
-    border-left: 1px solid gray;
+    /* border-left: 1px solid gray; */
 }
 
 .select-user {
