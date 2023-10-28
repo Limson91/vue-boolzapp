@@ -1,0 +1,47 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul, li, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.window {
+    display: flex;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* background app */
+
+#app {
+    background: linear-gradient(
+        to bottom,
+        #009688 0px,
+        #009688 250px,
+        #dddbd1 250px,
+        #dddbd1 100%
+    );
+
+    height: 100vh;
+    overflow: hidden;
+    padding: 60px;
+}
