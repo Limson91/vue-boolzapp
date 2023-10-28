@@ -195,7 +195,9 @@ img {
     border-radius: 50%;
 }
 
-.main-chat {
+/* main content - chat */
+
+.message-list {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -203,6 +205,25 @@ img {
     gap: 10px;
     background-image: url(../img/mine.jpg);
 }
+
+.message {
+    background-color: white;
+    border-radius: 18px;
+    padding: 10px 15px;
+    max-width: 40%;
+}
+
+.message.sent {
+    background-color: #d5f9ba;
+    align-self: flex-end;
+}
+
+.message.received {
+    background-color: white;
+    align-self: flex-start;
+}
+
+/* main content - send message*/
 
 .insert-message {
     display: flex;
