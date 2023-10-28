@@ -111,6 +111,32 @@ img {
     padding: 16px;
 }
 
+/* siderbar - searchbar */
+
+.searchbar {
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.input-line {
+    position: relative;
+}
+
+.searchbar__icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+}
+
+.input-line input {
+    width: 100%;
+    /* border: 1px solid gray; */
+    border-radius: 8px;
+    padding-left: 30px;
+    height: 30px;
+}
+
 /* main content */
 
 .main-content {
