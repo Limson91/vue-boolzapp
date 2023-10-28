@@ -155,11 +155,36 @@ img {
     border-radius: 50%;
 }
 
-/* main content */
+/* main content - toolbar */
 
 .main-content {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     background-color: lightgrey;
+}
+
+.main-toolbar {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 16px;
+    gap: 10px;
+}
+
+.main-chat {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 40px;
+    gap: 10px;
+    background-image: url(../img/mine.jpg);
+}
+
+.insert-message {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 16px;
+    gap: 10px;
 }
