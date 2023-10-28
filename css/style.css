@@ -231,4 +231,19 @@ img {
     background-color: lightgray;
     padding: 16px;
     gap: 10px;
+    font-size: 24px;
+    color: gray;
 }
+
+.insert-message i {
+    padding: 0 16px;
+}
+
+.input-response {
+    flex-grow: 1;
+    height: 35px;
+    padding: 0 16px;
+    border-radius: 10px;
+    border: none;
+} 
+
