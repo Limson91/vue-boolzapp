@@ -77,13 +77,14 @@
 
                         <!-- single contact -->
                         <li class="contact-item">
-                            <div class="contact">
+                            <div class="contact" v-for="(contact, index) in contacts" 
+                            :class="index == activeContactIndex ? 'active' : '' " @click="changeActiveContact(index)">
                                 <figure class="contact-img">
-                                    <img src="./img/avatar_1.jpg" alt="">
+                                    <img src="contacts[activeContactIndex].avatar" alt="">
                                 </figure>
 
                                 <div class="contact-info">
-                                    <h4 class="contact-name">Gino</h4>
+                                    <h4 class="contact-name">{{ contact.name }}</h4>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <span class="contact-time">12.30</span>
@@ -104,7 +105,7 @@
                         </figure>
 
                         <div class="select-user-info">
-                            <div class="select-user-name">Pino</div>
+                            <h4 class="select-user-name">Pino</h4>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
@@ -143,4 +144,6 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/app.js"></script>
 </body>
